@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.order-total-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  font-weight: 500;
+  color: #616e7c;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.order-total-para {
+  margin-top: 0px;
+}
+.amount {
+  color: #171f46;
+}
+.check-out-btn {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  width: 400px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-top: 2px;
+  height: 40px;
+  cursor: pointer;
+}
+.modal {
+  background-color: #fff;
+  width: 450px;
+  height: 380px;
+  margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .order-total-para {
+    font-size: 12px;
+  }
+  .modal {
+    background-color: #fff;
+    width: 250px;
+    height: 180px;
+    margin: auto;
+  }
+  .cart-content-con-row {
+    width: 100%;
+  }
+  .order-total-container {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-end;
+    font-weight: 500;
+    color: #616e7c;
+  }
+  .check-out-btn {
+    width: 90px;
+    height: 24px;
+  }
+}

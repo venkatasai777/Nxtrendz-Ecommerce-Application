@@ -1,0 +1,50 @@
+.payment-contianer {
+  width: 400px;
+  height: 270px;
+  background-color: #fff;
+  flex-grow: 1;
+  padding: 8px;
+}
+.paymentMethods-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 8px;
+}
+.paymentMethods-head {
+  color: navy;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 18px;
+}
+.each-pay-option {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+.each-option-css {
+  font-size: 12px;
+}
+.summary-details {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Confirmorder {
+  width: 100%;
+  background-color: navy;
+  height: 35px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
